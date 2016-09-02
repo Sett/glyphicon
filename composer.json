@@ -1,0 +1,16 @@
+{
+  "name": "funcraft/glyphicon",
+  "description": "Glyphicons with PHP",
+  "authors":[
+    {
+      "name": "Funcraft",
+      "email": "what4me@ya.ru",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr4": {
+      "funcraft\\year\\": ""
+    }
+  }
+}
