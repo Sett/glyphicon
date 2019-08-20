@@ -72,6 +72,14 @@ class Glyphicon
         $type  && $this->setType($type);
         $color && $this->setColor($color);
     }
+    
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->render();
+    }
 
     /**
      * @param string $type
